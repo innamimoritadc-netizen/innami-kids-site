@@ -17,22 +17,22 @@ body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans JP
 img{max-width:100%;height:auto;display:block}
 a{color:var(--teal-dark)}
 a:focus-visible,button:focus-visible{outline:3px solid var(--crayon);outline-offset:3px;border-radius:4px}
-h1,h2,h3{font-family:"Kiwi Maru","Noto Sans JP",sans-serif;font-weight:500;line-height:1.4;margin:0}
+h1,h2,h3{font-family:"Zen Maru Gothic","Noto Sans JP",sans-serif;font-weight:700;line-height:1.4;margin:0}
 .wrap{max-width:1040px;margin:0 auto;padding:0 20px}
 .narrow{max-width:720px}
 
 /* header (メインHPに合わせた白ヘッダー) */
 .site-head{background:#fff;box-shadow:0 1px 0 var(--line)}
 .head-top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:14px;padding-bottom:10px;flex-wrap:wrap}
-.brand{display:flex;align-items:center;gap:10px;font-family:"Kiwi Maru",sans-serif;font-size:24px;color:var(--teal-dark);text-decoration:none;line-height:1.25}
-.brand .mark{background:var(--teal-soft);color:#fff;font-family:Georgia,serif;font-style:italic;font-size:17px;padding:6px 10px;border-radius:6px}
+.brand{display:flex;align-items:center;gap:10px;font-family:"Zen Maru Gothic",sans-serif;font-weight:700;font-size:24px;color:var(--teal-dark);text-decoration:none;line-height:1.25}
+.brand .mark{background:var(--teal-soft);color:#fff;font-family:"Noto Sans JP",sans-serif;font-weight:700;font-size:15px;letter-spacing:.04em;padding:6px 10px;border-radius:6px}
 .brand small{display:block;font-family:"Noto Sans JP",sans-serif;font-size:14px;color:var(--muted);letter-spacing:.04em}
-.tel-pill{background:var(--teal-soft);color:#fff;text-decoration:none;border-radius:8px;padding:6px 18px;font-family:Roboto,"Noto Sans JP",sans-serif;font-weight:700;font-size:22px;line-height:1.2;text-align:center}
+.tel-pill{background:var(--teal-soft);color:#fff;text-decoration:none;border-radius:8px;padding:6px 18px;font-family:"Noto Sans JP",sans-serif;font-weight:700;font-size:22px;line-height:1.2;text-align:center}
 .tel-pill small{display:block;font-size:12px;font-weight:400}
 .nav{border-top:1px solid var(--line)}
 .nav .wrap{display:flex;justify-content:space-between;gap:4px 12px;flex-wrap:wrap;padding-top:8px;padding-bottom:8px}
 .nav a{flex:1;text-align:center;text-decoration:none;color:var(--ink);font-size:17px;line-height:1.3;padding:6px 4px;border-bottom:3px solid transparent}
-.nav a small{display:block;font-size:11px;color:var(--teal);font-family:Georgia,serif;letter-spacing:.06em}
+.nav a small{display:block;font-size:11px;color:var(--teal);letter-spacing:.08em}
 .nav a[aria-current=page]{border-bottom-color:var(--teal-soft)}
 .float-res{position:fixed;right:16px;bottom:16px;z-index:10;background:var(--green);color:#fff;text-decoration:none;font-weight:700;font-size:17px;padding:14px 22px;border-radius:999px;box-shadow:0 4px 14px rgba(0,0,0,.18)}
 .float-res:hover{filter:brightness(.92)}
@@ -44,7 +44,7 @@ h1,h2,h3{font-family:"Kiwi Maru","Noto Sans JP",sans-serif;font-weight:500;line-
 .hero p.lead{font-size:20px;margin:20px 0 0;max-width:30em}
 .hero figure{margin:0;position:relative}
 .hero figure img{border-radius:46% 54% 42% 58% / 52% 40% 60% 48%;background:#fff}
-.stamp{position:absolute;left:-18px;bottom:-18px;width:132px;height:132px;border-radius:50%;background:var(--crayon);color:var(--ink);display:flex;align-items:center;justify-content:center;text-align:center;font-family:"Kiwi Maru",sans-serif;font-weight:700;font-size:15px;line-height:1.35;transform:rotate(-8deg);box-shadow:0 0 0 6px #fff}
+.stamp{position:absolute;left:-18px;bottom:-18px;width:132px;height:132px;border-radius:50%;background:var(--crayon);color:var(--ink);display:flex;align-items:center;justify-content:center;text-align:center;font-family:"Zen Maru Gothic",sans-serif;font-weight:700;font-size:15px;line-height:1.35;transform:rotate(-8deg);box-shadow:0 0 0 6px #fff}
 .stamp b{display:block;font-size:30px;line-height:1.1}
 .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
 .btn{display:inline-block;background:var(--teal);color:#fff;text-decoration:none;font-weight:700;padding:15px 28px;border-radius:999px;font-size:18px}
@@ -66,7 +66,7 @@ ul.check li::before{content:"";position:absolute;left:0;top:.62em;width:.8em;hei
 .steps{counter-reset:s;list-style:none;padding:0;margin:0}
 .steps li{counter-increment:s;position:relative;padding:0 0 22px 52px;border-left:2px dashed var(--line);margin-left:17px}
 .steps li:last-child{border-left-color:transparent}
-.steps li::before{content:counter(s);position:absolute;left:-18px;top:0;width:34px;height:34px;border-radius:50%;background:var(--teal);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-family:"Kiwi Maru",sans-serif}
+.steps li::before{content:counter(s);position:absolute;left:-18px;top:0;width:34px;height:34px;border-radius:50%;background:var(--teal);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-family:"Zen Maru Gothic",sans-serif}
 .steps b{display:block}
 
 table.price{width:100%;border-collapse:collapse;font-size:18px}
@@ -80,7 +80,7 @@ table.price thead th{font-size:15px;color:var(--muted);font-weight:400}
 details{border-bottom:1px solid var(--line);padding:14px 0}
 summary{cursor:pointer;font-weight:700;list-style:none}
 summary::-webkit-details-marker{display:none}
-summary::before{content:"Q.";color:var(--teal);margin-right:8px;font-family:"Kiwi Maru",sans-serif}
+summary::before{content:"Q.";color:var(--teal);margin-right:8px;font-family:"Zen Maru Gothic",sans-serif}
 details p{margin:10px 0 0 1.8em}
 
 .info dl{display:grid;grid-template-columns:7em 1fr;gap:6px 16px;margin:0}
