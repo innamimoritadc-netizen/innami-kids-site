@@ -110,3 +110,25 @@ details p{margin:10px 0 0 1.8em}
   .info dl{grid-template-columns:5.5em 1fr}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* evidence-based additions */
+section.tint{background:var(--cream)}
+section.tint + section{border-top:0}
+.sub{color:var(--muted);margin-top:-8px}
+.qa-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px}
+.qa{background:#fff;border-radius:16px;padding:22px 22px 18px;border:1px solid #ece4bf}
+.qa h3{margin:0 0 8px;font-size:21px;color:var(--teal-dark)}
+.qa h3::before{content:"Q";display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;background:var(--crayon);color:#fff;font-size:16px;margin-right:10px;vertical-align:2px}
+.qa p{margin:0;font-size:17px;line-height:1.85}
+.actions.center{justify-content:center;margin-top:32px}
+table.opt{width:100%;border-collapse:collapse;font-size:17px;min-width:640px}
+table.opt th,table.opt td{border-bottom:1px solid var(--line);padding:12px 10px;text-align:left;vertical-align:top}
+table.opt thead th{background:var(--sky);font-size:15px;font-weight:700;color:var(--teal-dark)}
+table.opt tbody th{white-space:nowrap;color:var(--teal-dark)}
+.total{background:var(--sky);border-radius:14px;padding:18px 22px;margin-top:20px}
+.total h3{margin:0 0 6px}
+.total b{font-size:22px;color:var(--teal-dark)}
+.credit{font-size:14px;opacity:.9}
+@media (max-width:760px){.qa-grid{grid-template-columns:1fr}}
+section.family{background:linear-gradient(180deg,var(--sky),#fff)}
+section.family h2{color:var(--teal-dark)}
